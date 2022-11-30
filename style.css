@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    margin-top: 1px;
+}
+.navbar{
+    padding: 0.5%;
+}
+#home{
+    background-color: black;
+    padding: 5%;
+    display: grid;
+    text-align: center;
+    background-size: cover; 
+}
+
+#c1{
+    color: white;
+    font-size: 150px;
+    font-weight: 800;
+    padding-right: 90%; 
+    animation: 0.03s;
+}
+.c1{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 2;
+    }
+}
+#c2{
+    width: 40vw;
+    padding-top: 60%;
+    padding-left: 30%;
+}
+.bi{
+    color: white;
+}
+
+/* aboutus */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.about img{
+    height: auto;
+    width: 420px;
+    height: 520px;
+    padding-left: 0%;
+}
+.about-img{
+    width: fit-content;
+}
+.about-text{
+    width: 45rem;
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    width:fit-content;
+    text-transform: capitalize;
+}
+
+/* service */
+
+.head{
+    padding-top: 80px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+}
+.ccontainer{
+    display: flex;
+    /* justify-content: flex-start; */
+    overflow-x: auto;
+    white-space: nowrap;
+    border-bottom: 2px solid black;
+}
+.ccontainer::-webkit-scrollbar{
+    width: 1px;
+    color: black;
+}
+.box{
+    width:350px;
+    height:350px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+}
+.item1{
+    /* border-radius: 5px; */
+     padding-left: 10px;
+     width: 30rem;
+     
+     border: 1.5px solid black;
+}
+.item1:hover
+  {
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:black;
+    color:white;
+    }
+  }
+.item2{
+    /* border-radius: 5px; */
+     padding-left: 10px; 
+     width: 30rem;
+     border: 1.5px solid black;
+ }
+ .item2:hover
+  {
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:black;
+    color:white;
+    }
+  }
+ .item3{
+    /* border-radius: 5px; */
+    width: 30rem;
+     padding-left:10px; 
+     border: 1.5px solid black;  
+}
+.item3:hover
+  {
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:black;
+    color:white;
+    }
+  }
+.con{
+    background-color: black;
+    padding: 40px;
+    padding-left: 120px;
+}
+#h3{
+    color: aliceblue;
+    width: 100vw;
+    justify-content: center;
+}
+input{
+    width:80vw;
+    padding-left: 10px;
+    margin: 5px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid white;
+    
+}
+button{
+    padding-left: 10px;
+    height: 30px;
+    margin: 5px;
+
+}
+.serve{
+    margin: 40px;
+    padding: 40px;
+}
